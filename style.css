@@ -23,7 +23,7 @@ body{
     align-items: center;
     background-color: var(--light-gray);
 }
-section{
+section.wrap{
     max-width: 360px;
 }
 .card{
@@ -42,14 +42,9 @@ section{
 
 .card__body{
     padding: 20px 17px 30px ;
-    /* padding: 22px 10px; */
-    /* text-align: center;
-    text-align-last: center; */
 }
 .card__title{
     color: var(--dark-blue);
-    /* font-weight: 700; */
-    /* font-size: 2.1rem; */
 }
 .card__title::first-line{
     padding: 0 20px;
@@ -57,7 +52,5 @@ section{
 .card__description{
     color: var(--grayish-blue);
     padding-top: 20px;
-    /* line-height: 1.5rem; */
     font-weight: 400;
-    
 }
